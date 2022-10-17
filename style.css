@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    
+    padding: 25px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    float: top;
+}
+nav ul{
+    display:inline
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.p{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-2{
+    float: right;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 20px 0s;
+}
+.header{
+    background: radial-gradient(#fff,#9ca9bf);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3 img{
+    float: left;
+    padding: 125px;
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+/* .col-4 img{
+    float: left;
+    padding: 125px;
+    width: 50%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+
+} */
+.offer{
+    background: radial-gradient(#fff,#9ca9bf);
+    margin-top: 80px;
+    padding: 30px 0s;
+}
+
+.col-2 .offer-img{
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+    
+    padding:50px;
+    height: 400px;
+}
+
+.electro{
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+}
+
+.nbItems{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    margin-top: -1.4rem;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+<!------brands----->
+.brands{
+    margin: 100px auto;
+
+}
+.col-5{
+    width: 160px;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+<!--------footer------->
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer h2{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.footer-col-1, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex: 30%;
+}
+.footer-col-3{
+    flex: 30%;
+}
